@@ -41,7 +41,7 @@
 		"etag": "1.8.1",
 		"firebase": "11.0.1",
 		"github-markdown-css": "5.7.0",
-		"postcss": "8.4.48",
+		"postcss": "8.4.49",
 		"postcss-combine-duplicated-selectors": "10.0.3",
 		"postcss-combine-media-query": "1.0.1",
 		"postcss-import": "16.1.0",
