@@ -20,6 +20,7 @@ export default (async (...Option) => {
 						: Object.keys(Package).at(0)?.split(":")[1];
 
 				const Owner = GitHub?.split("/")[0];
+
 				const Repository = GitHub?.split("/")[1];
 
 				const JSONGitHub = await Request(`GET /repos/${GitHub}`, {
