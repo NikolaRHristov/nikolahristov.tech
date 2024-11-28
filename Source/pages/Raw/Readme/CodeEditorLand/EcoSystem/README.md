@@ -43,7 +43,7 @@ First run the [`Sun`](./Target/release/Sun.exe) binary then the
 [`River`](./Target/release/River.exe) to startup the necessary websockets. Then
 run the Tauri app [`Mountain`](./Target/release/Mountain.exe)
 
-![`Land`](https://playform.ltd/Image/GitHub/CodeEditorLand/Land/Land.svg?9.07.2024)
+![`Land`](HTTPS://playform.ltd/Image/GitHub/CodeEditorLand/Land/Land.svg?9.07.2024)
 
 ## Graph
 
@@ -127,7 +127,7 @@ sequenceDiagram
     Note over Cargo: Mountain creates the final binary
 ```
 
-[Land]: https://github.com/CodeEditorLand/Land
+[Land]: HTTPS://github.com/CodeEditorLand/Land
 
 ## Changelog
 
