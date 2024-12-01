@@ -6,7 +6,7 @@
 
 Rounds the corners of your Windows screen.
 
-![`Round`](HTTPS://PlayForm.LTD/Image/GitHub/Round/Cover.png)
+![`Round`](https://PlayForm.LTD/Image/GitHub/Round/Cover.png)
 
 ## Getting started
 
