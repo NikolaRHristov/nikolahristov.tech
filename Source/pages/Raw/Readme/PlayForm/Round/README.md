@@ -18,25 +18,25 @@ tray, and handles events from the menu.
 
 The code imports several crates:
 
--   `regex` - provides support for regular expressions
--   `serde_json`- is a JSON serialization/deserialization library
--   `tauri` - is the main framework for building cross-platform desktop apps in
-    Rust
--   `tauri_plugin_store` - provides a key-value store for persisting application
-    data
+- `regex` - provides support for regular expressions
+- `serde_json`- is a JSON serialization/deserialization library
+- `tauri` - is the main framework for building cross-platform desktop apps in
+  Rust
+- `tauri_plugin_store` - provides a key-value store for persisting application
+  data
 
 ## Options
 
 The app has several menu items:
 
--   ➕ **Increase Size**
--   ➖ **Decrease Size**
--   ↩️ **Reset**
--   🌑 **Dark**
--   ☀️ **Light**
--   👨🏻 **Show**
--   🥷🏽 **Hide**
--   ❌ **Exit**
+- ➕ **Increase Size**
+- ➖ **Decrease Size**
+- ↩️ **Reset**
+- 🌑 **Dark**
+- ☀️ **Light**
+- 👨🏻 **Show**
+- 🥷🏽 **Hide**
+- ❌ **Exit**
 
 Clicking on **Increase Size** or **Decrease Size** increases or decreases the
 roundness of the windows, respectively.

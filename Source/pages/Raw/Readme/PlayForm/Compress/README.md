@@ -1,7 +1,7 @@
 # 🗜️ [Compress] —
 
-This **[`Astro integration`][astro-integration]** brings compression utilities to
-your Astro project.
+This **[`Astro integration`][astro-integration]** brings compression utilities
+to your Astro project.
 
 🎁 [`CSS (csso)`][csso] —
 
@@ -84,25 +84,25 @@ and image files in the Astro `outDir` folder.
 
 The following image file types will be compressed via [sharp]:
 
--   avci
--   avcs
--   avif
--   avifs
--   gif
--   heic
--   heics
--   heif
--   heifs
--   jfif
--   jif
--   jpe
--   jpeg
--   jpg
--   apng
--   png
--   raw
--   tiff
--   webp
+- avci
+- avcs
+- avif
+- avifs
+- gif
+- heic
+- heics
+- heif
+- heifs
+- jfif
+- jif
+- jpe
+- jpeg
+- jpg
+- apng
+- png
+- raw
+- tiff
+- webp
 
 SVG compression is supported, as well via [svgo].
 
@@ -110,12 +110,12 @@ SVG compression is supported, as well via [svgo].
 
 You can override any of the default options from the configurations of:
 
--   [`csso`](https://github.com/css/csso#minifysource-options)
--   [`lightningcss`](https://github.com/parcel-bundler/lightningcss/blob/master/node/index.d.ts#L8)
--   [`html-minifier-terser`](https://github.com/terser/html-minifier-terser#options-quick-reference)
--   [`sharp`](https://sharp.pixelplumbing.com/api-output#jpeg)
--   [`svgo`](https://github.com/svg/svgo#configuration)
--   [`terser`](https://github.com/terser/terser#minify-options-structure)
+- [`csso`](https://github.com/css/csso#minifysource-options)
+- [`lightningcss`](https://github.com/parcel-bundler/lightningcss/blob/master/node/index.d.ts#L8)
+- [`html-minifier-terser`](https://github.com/terser/html-minifier-terser#options-quick-reference)
+- [`sharp`](https://sharp.pixelplumbing.com/api-output#jpeg)
+- [`svgo`](https://github.com/svg/svgo#configuration)
+- [`terser`](https://github.com/terser/terser#minify-options-structure)
 
 **`astro.config.ts`**
 
