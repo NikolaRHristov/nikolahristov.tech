@@ -1,6 +1,6 @@
-# 🏞️ [Land] —
+# [Land] 🏞️
 
-## 🚀 Installation
+## Installation 🚀
 
 Clone the repository:
 

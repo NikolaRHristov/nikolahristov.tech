@@ -1,4 +1,4 @@
-# 🗜️ [Compress] —
+# [Compress] 🗜️
 
 This **[`Astro integration`][astro-integration]** brings compression utilities
 to your Astro project.
@@ -24,7 +24,7 @@ to your Astro project.
 >
 > Use `Compress` last in your integration list for the best optimizations.
 
-## 🚀 Installation
+## Installation 🚀
 
 There are two ways to add integrations to your project. Let's try the most
 convenient option first!
