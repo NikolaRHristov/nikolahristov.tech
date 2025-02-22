@@ -1,10 +1,12 @@
 import type { defineConfig } from "astro/config";
 
+export const On = process.env["NODE_ENV"] === "development";
+
 export default (await import("astro/config")).defineConfig({
 	srcDir: "./Source",
 	publicDir: "./Public",
 	outDir: "./Target",
-	site: "HTTPS://NikolaHristov.Tech",
+	site: On ? "HTTP://localhost" : "HTTPS://NikolaHristov.Tech",
 	compressHTML: true,
 	prefetch: {
 		defaultStrategy: "hover",
@@ -22,12 +24,14 @@ export default (await import("astro/config")).defineConfig({
 			? (await import("astrojs-service-worker")).default()
 			: null,
 		(await import("@astrojs/sitemap")).default(),
-		(await import("@playform/inline")).default({ Logger: 1 }),
-		(await import("@playform/format")).default({ Logger: 1 }),
-		(await import("@playform/compress")).default({
-			Logger: 1,
-			Exclude: [(File: string) => File.indexOf("Raw") !== -1],
-		}),
+		!On ? (await import("@playform/inline")).default({ Logger: 1 }) : null,
+		!On ? (await import("@playform/format")).default({ Logger: 1 }) : null,
+		!On
+			? (await import("@playform/compress")).default({
+					Logger: 1,
+					Exclude: [(File: string) => File.indexOf("Raw") !== -1],
+				})
+			: null,
 	],
 	experimental: {
 		clientPrerender: true,

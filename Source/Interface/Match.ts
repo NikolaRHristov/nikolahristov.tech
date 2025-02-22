@@ -1,4 +1,4 @@
-import type Cell from "../Type/Cell.ts";
+import type Cell from "../Type/Cell.js";
 
 /**
  * @module Match
